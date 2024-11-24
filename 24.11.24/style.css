@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+  height: 100vh;
+    background: linear-gradient(red, yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: rgb(187, 177, 185);
+    border-radius: 20px; 
+    width: 500px;
+    text-align: center;
+}
+.card-header h1 {
+ background-color: purple;
+ padding: 20px;
+text-decoration: solid;
+}
+ 
+ 
+
+
+
+.card-body {
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+.card-footer{
+    background-color:purple;
+    padding: 20px;
+}
+ button {
+    background-color: rgb(140, 133, 146);
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 5px;
+
+}
+    
